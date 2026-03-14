@@ -59,7 +59,7 @@ color:#00bcd4;
 }
 
 .about{
-    display: flex;
+    display: block;
     gap: 20px;
     justify-content: center;
     
@@ -231,9 +231,13 @@ button{
 }
 
 
-@media screen (max-width:450px) {
-   .Navbar (padding-top:8px;)
-    .Navbar (font-size:12px;)
+@media screen and (max-width: 450px) {
+  .Navbar {
+    padding-top: 8px;
+    font-size: 12px;
+  }
     
-  
+  .about {
+    display: flex;
+  }
 }
